@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.nav-logo {
+  width: 30px;
+}
+
+.flex-align {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  font-size: 20px;
+  color: #445b78;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: -2.2px;
+  line-height: 1;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 48px;
+  letter-spacing: -2px;
+}
+
+nav {
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.v6-img {
+  display: inline-block;
+  width: 96px;
+  vertical-align: bottom;
+}
+
+.nav-container {
+  gap: 24px;
+}
+
+nav a {
+  gap: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #35404e;
+}
+
+section {
+  padding: 80px 0px;
+}
+
+.nav-down-icon {
+  width: 12px;
+}
+
+.nav-icon {
+  width: 16px;
+  cursor: pointer;
+}
+
+.bridge {
+  background-color: #d8d8d8;
+  width: 1px;
+  height: 25px;
+}
+
+.nav-get-started {
+  padding: 8px 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  background-color: #4a8bfc;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container {
+  margin: auto;
+  width: 1080px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.intro-img {
+  width: 100%;
+}
+
+.round-button {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  border: none;
+  background-color: #1b6dff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 150px;
+}
+
+.right-icon,
+.link-icon {
+  width: 24px;
+}
+
+.link-flex {
+  gap: 30px;
+}
+
+.links {
+  gap: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #1b6dff;
+}
+
+.link-icon {
+  stroke: #1b6dff;
+}
+
+.mid-box {
+  background-image: linear-gradient(0deg, #1f1f44, #34346e);
+  height: 280px;
+  border-radius: 25px;
+}
+
+.large-para {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+}
+
+.mid-block {
+  width: 700px;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+}
+
+.large-para {
+  color: rgba(f, f, f, 50%);
+}
+
+.gray-text {
+  color: #657482;
+}
+
+.h2-group {
+  margin-bottom: 24px;
+}
+
+.card-header {
+  font-weight: 500;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.card-para {
+  font-size: 16px;
+}
+
+.grid-gap {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  justify-content: space-between;
+}
+
+.feature-img {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.last-img {
+  height: 258px;
+}
+
+.headers {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+.two-grid-col-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.number {
+  font-size: 96px;
+  font-weight: 600;
+  letter-spacing: -7px;
+  color: #000;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.after-number {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  margin-bottom: 0px;
+}
+
+.stats-card {
+  padding: 36px;
+}
+
+.stats-para {
+  font-size: 16px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.stats-first {
+  margin-bottom: 0px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.gap-revisit {
+  column-gap: 50px;
+}
+
+.big-text-block {
+  margin-top: -20px;
+  margin-bottom: -25px;
+}
+
+.right {
+  border-right: 2px solid rgb(235, 235, 235);
+}
+
+.bottom {
+  border-bottom: 2px solid rgb(235, 235, 235);
+}
+
+.black-text {
+  font-weight: 700;
+  color: #000;
+}
+
+.frameworks {
+  font-size: 14px;
+  color: #000;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.new-gap {
+  column-gap: 80px;
+}
+
+.framework-img {
+  width: 24px;
+}
+
+.width-h2 {
+  margin-bottom: 24px;
+}
+
+.width-block {
+  width: 700px;
+}
+
+.card-icon {
+  width: 56px;
+  margin-bottom: 16px;
+  margin-left: 0px;
+}
+
+.card-head {
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.card-block {
+  padding: 36px;
+  width: 320px;
+  background-color: #f6f8ff;
+  border-radius: 12px;
+}
+
+.card-par {
+  margin-top: 0px;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
